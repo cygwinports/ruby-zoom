@@ -1,0 +1,78 @@
+ruby-zoom
+------------------------------------------
+Ruby/ZOOM provides a Ruby binding to the Z39.50 Object-Orientation Model
+(ZOOM), an abstract object-oriented programming interface to a subset of
+the services specified by the Z39.50 standard, also known as the
+international standard ISO 23950.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libyaz3-3.0.6-1
+  ruby-1.8.6-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  ruby-1.8.6-1
+
+Canonical website:
+  http://ruby-zoom.rubyforge.org/
+
+Canonical download:
+  http://rubyforge.org/frs/?group_id=592
+
+-------------------------------------------
+
+Build instructions:
+  unpack ruby-zoom-0.2.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ruby-zoom-0.2.3-X.cygport all
+
+This will create:
+  /usr/src/ruby-zoom-0.2.3-X-src.tar.bz2
+  /usr/src/ruby-zoom-0.2.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ruby/site_ruby/1.8/i386-cygwin/zoom.so
+  /usr/share/doc/Cygwin/ruby-zoom-0.2.3.README
+  /usr/share/doc/ruby-zoom-0.2.3/AUTHORS
+  /usr/share/doc/ruby-zoom-0.2.3/COPYING.LIB
+  /usr/share/doc/ruby-zoom-0.2.3/ChangeLog
+  /usr/share/doc/ruby-zoom-0.2.3/README
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/classes/ZOOM.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/classes/c.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/created.rid
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/files/src/rbzoom_c.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/files/src/rbzoomconnection_c.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/files/src/rbzoomoptions_c.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/files/src/rbzoomquery_c.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/files/src/rbzoomrecord_c.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/files/src/rbzoomresultset_c.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/fr_class_index.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/fr_file_index.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/fr_method_index.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/index.html
+  /usr/share/doc/ruby-zoom-0.2.3/rdoc/rdoc-style.css
+
+------------------
+
+Port Notes:
+
+----- version 0.2.3-1 -----
+Version bump for yaz-3.0.
+
+----- version 0.2.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
