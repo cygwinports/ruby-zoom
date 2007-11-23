@@ -1,0 +1,8 @@
+inherit ruby
+
+DESCRIPTION="Ruby Yaz/ZOOM bindings"
+HOMEPAGE="http://ruby-zoom.rubyforge.org/"
+SRC_URI="mirror://rubyforge/${PN}/zoom-${PV}.gem"
+SRC_DIR="zoom-${PV}/src"
+
+RDOC_SOURCE="."

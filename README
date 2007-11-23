@@ -7,14 +7,14 @@ international standard ISO 23950.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  libyaz3-3.0.6-1
+  libyaz3-3.0.16-1
   ruby-1.8.6-1
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gcc-core-3.4.4-3
   make-3.81-1
   ruby-1.8.6-1
@@ -28,44 +28,47 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ruby-zoom-0.3.0-X-src.tar.bz2
+  unpack ruby-zoom-0.4.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ruby-zoom-0.3.0-X.cygport all
+  cygport ./ruby-zoom-0.4.1-X.cygport all
 
 This will create:
-  /usr/src/ruby-zoom-0.3.0-X-src.tar.bz2
-  /usr/src/ruby-zoom-0.3.0-X.tar.bz2
+  /usr/src/ruby-zoom-0.4.1-X-src.tar.bz2
+  /usr/src/ruby-zoom-0.4.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/lib/ruby/site_ruby/1.8/i386-cygwin/zoom.so
-  /usr/share/doc/Cygwin/ruby-zoom-0.3.0.README
-  /usr/share/doc/ruby-zoom-0.3.0/AUTHORS
-  /usr/share/doc/ruby-zoom-0.3.0/COPYING.LIB
-  /usr/share/doc/ruby-zoom-0.3.0/ChangeLog
-  /usr/share/doc/ruby-zoom-0.3.0/README
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/classes/ZOOM.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/classes/c.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/created.rid
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/files/src/rbzoom_c.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/files/src/rbzoomconnection_c.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/files/src/rbzoomoptions_c.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/files/src/rbzoomquery_c.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/files/src/rbzoomrecord_c.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/files/src/rbzoomresultset_c.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/fr_class_index.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/fr_file_index.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/fr_method_index.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/index.html
-  /usr/share/doc/ruby-zoom-0.3.0/rdoc/rdoc-style.css
+  /usr/share/doc/Cygwin/ruby-zoom-0.4.1.README
+  /usr/share/doc/ruby-zoom-0.4.1/AUTHORS
+  /usr/share/doc/ruby-zoom-0.4.1/COPYING.LIB
+  /usr/share/doc/ruby-zoom-0.4.1/ChangeLog
+  /usr/share/doc/ruby-zoom-0.4.1/README
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/classes/ZOOM.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/classes/c.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/created.rid
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/files/src/rbzoom_c.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/files/src/rbzoomconnection_c.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/files/src/rbzoomoptions_c.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/files/src/rbzoomquery_c.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/files/src/rbzoomrecord_c.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/files/src/rbzoomresultset_c.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/fr_class_index.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/fr_file_index.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/fr_method_index.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/index.html
+  /usr/share/doc/ruby-zoom-0.4.1/rdoc/rdoc-style.css
 
 ------------------
 
 Port Notes:
+
+----- version 0.4.1-1 -----
+Version bump.
 
 ----- version 0.3.0-1 -----
 Version bump.
