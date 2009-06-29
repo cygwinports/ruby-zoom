@@ -1,5 +1,5 @@
 category: Ruby
-requires: cygwin ruby libyaz3
+requires: ruby libyaz3
 sdesc: "Ruby bindings for YAZ/ZOOM library"
 ldesc: "Ruby/ZOOM provides a Ruby binding to the Z39.50
 Object-Orientation Model (ZOOM), an abstract object-oriented programming
