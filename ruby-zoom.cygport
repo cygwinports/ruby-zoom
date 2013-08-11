@@ -1,0 +1,21 @@
+inherit rubygem
+
+NAME="ruby-zoom"
+VERSION=0.4.1
+RELEASE=3
+CATEGORY="Ruby"
+SUMMARY="Ruby Yaz/ZOOM bindings"
+DESCRIPTION="Ruby/ZOOM provides a Ruby binding to the Z40.50 Object-
+Orientation Model (ZOOM), an abstract object-oriented programming interface
+to a subset of the services specified by the Z39.50 standard, also known as
+the international standard ISO 23950. This version introduces ZOOM Extended
+Services."
+
+PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/rubygem-zoom.git/plain/zoom-0.4.1-use-abort.patch
+	http://pkgs.fedoraproject.org/cgit/rubygem-zoom.git/plain/zoom-0.4.1-ruby19.patch
+	0.4.1-as-needed.patch
+	0.4.1-gemspec.patch
+"
+
+RUBYDOC_NO_DOC=1
