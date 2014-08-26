@@ -3,7 +3,7 @@
 @@ -11,7 +11,7 @@
  end
  
- $CFLAGS << " #{`yaz-config --cflags`} "
+ $CFLAGS << " #{`yaz-config --cflags| tr "\n" " "`} "
 -$LDFLAGS << " #{`yaz-config --libs`} "
 +$LIBS << " #{`yaz-config --libs`} "
  
