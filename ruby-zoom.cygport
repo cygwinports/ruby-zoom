@@ -2,7 +2,7 @@ inherit rubygem
 
 NAME="ruby-zoom"
 VERSION=0.4.1
-RELEASE=4
+RELEASE=5
 CATEGORY="Ruby"
 SUMMARY="Ruby Yaz/ZOOM bindings"
 DESCRIPTION="Ruby/ZOOM provides a Ruby binding to the Z40.50 Object-
