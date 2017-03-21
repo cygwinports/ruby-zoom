@@ -1,0 +1,11 @@
+--- origsrc/zoom-0.5.0/ext/extconf.rb	2017-03-19 21:46:04.160441400 -0500
++++ src/zoom-0.5.0/ext/extconf.rb	2017-03-19 21:47:13.284357700 -0500
+@@ -11,7 +11,7 @@ unless have_header('yaz/zoom.h')
+ end
+ 
+ $CFLAGS << " #{`yaz-config --cflags`} "
+-$LDFLAGS << " #{`yaz-config --libs`} "
++$LIBS << " #{`yaz-config --libs`} "
+ 
+ create_makefile("zoom")
+ 
